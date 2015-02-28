@@ -387,8 +387,8 @@ static void book_filter(const char file_name[]) {
       }
       if (still_in_book && (Book->entry[pos].terminal == 1)) {
         // this is a FORBIDDEN GAME
-        printf("%s",(char *)(pgn->game_string));
       } else {
+        printf("%s",(char *)(pgn->game_string));
         num_OK++;
       }
       game_nb++;
